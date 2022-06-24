@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Tribeca";
+  font-weight: 700;
+  font-style: normal;
+  src: url("Tribeca.ttf");
+}
+
+@font-face {
+  font-family: "FestivoLetters";
+  font-style: normal;
+  src: url("FestivoLettersNo1.otf");
+}
+
+@font-face {
+  font-family: "Horatio";
+  font-style: normal;
+  src: url("Horatio-D-Medium.otf");
+}

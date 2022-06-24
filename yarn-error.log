@@ -1,0 +1,108 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kokk\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\kokk\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Bitvise SSH Client;C:\Users\kokk\.cargo\bin;C:\Users\kokk\.local\share\solana\install\active_release\bin;C:\Users\kokk\AppData\Local\Microsoft\WindowsApps;C:\Users\kokk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kokk\AppData\Roaming\npm;C:\Users\kokk\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.2.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\kokk\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141512:19)
+      at Object.onceWrapper (node:events:513:28)
+      at ClientRequest.emit (node:events:394:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:761:9)
+      at Object.onceWrapper (node:events:513:28)
+      at TLSSocket.emit (node:events:406:35)
+      at TLSSocket.Socket._onTimeout (node:net:486:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "apezone",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@dicebear/avatars": "^4.10.0",
+      "@dicebear/avatars-identicon-sprites": "^4.10.0",
+      "@emotion/cache": "^11.5.0",
+      "@emotion/react": "^11.5.0",
+      "@emotion/styled": "^11.3.0",
+      "@iconify/icons-cib": "^1.1.0",
+      "@iconify/react": "^3.0.1",
+      "@mui/icons-material": "^5.0.5",
+      "@mui/lab": "^5.0.0-alpha.53",
+      "@mui/material": "^5.0.6",
+      "@mui/styles": "^5.0.2",
+      "@reduxjs/toolkit": "^1.6.2",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@usedapp/core": "^0.5.4",
+      "axios": "^0.24.0",
+      "date-fns": "^2.24.0",
+      "ethers": "^5.5.1",
+      "formik": "^2.2.9",
+      "framer-motion": "^4.1.17",
+      "history": "^5.0.1",
+      "lodash": "^4.17.21",
+      "moment": "^2.29.1",
+      "particles-bg": "^2.5.5",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-dropzone": "^11.4.2",
+      "react-intersection-observer": "^8.32.2",
+      "react-loader-spinner": "^4.0.0",
+      "react-moment": "^1.1.1",
+      "react-redux": "^7.2.6",
+      "react-router": "^6.0.0-beta.0",
+      "react-router-dom": "^6.0.0-beta.0",
+      "react-scripts": "4.0.3",
+      "react-scroll": "^1.8.4",
+      "react-slick": "^0.28.1",
+      "react-toastify": "^8.0.3",
+      "simplebar": "^5.3.6",
+      "simplebar-react": "^2.3.6",
+      "slick-carousel": "^1.8.1",
+      "web-vitals": "^1.0.1",
+      "yup": "^0.32.11"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "CI=false react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
